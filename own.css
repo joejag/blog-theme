@@ -1,0 +1,26 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    font-size: 18px;
+}
+
+h1 { font-size: 50px; }
+h2 { font-size: 42px; line-height: 42px; }
+p  { margin-bottom: 1.2em; }
+ul { padding-bottom: 1.2em; }
+
+#sidebar { font-size: 15px; }
+.article_heading { padding-left: 72px; padding-bottom: 20px; }
+.mugshot { padding-bottom: 1.2em; }
+
+.date_label { position: absolute; left: 20px; }
+.date_day { font-size: 20px; text-align: center; font-weight: bold }
+.date_month { text-transform: uppercase; text-align: center; font-weight: bold}
+.date_year { text-align: center; font-weight: bold}
+
+#comments_heading {text-align: center; padding-bottom: 1.2em  }
+.comment_meta { padding-bottom: 1.2em }
+#respond_box input, textarea { width: 66%;}

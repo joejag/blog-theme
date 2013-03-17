@@ -23,6 +23,7 @@ h1 { font-size: 50px; }
 h2 { font-size: 42px; line-height: 42px; }
 p  { margin-bottom: 1.2em; }
 ul { padding-bottom: 1.2em; }
+li { line-height: 1.5em; }
 
 #sidebar { font-size: 15px; }
 .article_heading { padding-left: 72px; padding-bottom: 60px; }

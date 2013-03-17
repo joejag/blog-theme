@@ -7,6 +7,8 @@
         <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
         <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/joe_head.jpg">
+
         <!-- Le styles -->
         <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet">
         <link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">

@@ -32,7 +32,7 @@ if ( $paged >= 2 || $page >= 2 )
         <?php wp_head(); ?>
     </head>
 
-    <body <?php body_class(); ?> >
+    <body <?php body_class(); ?> onload="sh_highlightDocument();">
 
         <div class="container-fluid">
             <div class="row-fluid">

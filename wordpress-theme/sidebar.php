@@ -12,7 +12,13 @@
 
 <h3>Articles</h3>
 <ul>
-<?php wp_list_pages('include=2&title_li='); ?>
+<?php wp_list_pages('include=180&title_li='); ?>
+</ul>
+
+<h3>Games</h3>
+<ul>
+<li><a href="http://code.joejag.com/games/chicken/">Happy Mrs Chicken</a></li>
+<li><a href="http://code.joejag.com/games/brick/">Brick</a></li>
 </ul>
 
 <h3>Popular Posts</h3>

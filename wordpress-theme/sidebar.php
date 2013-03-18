@@ -5,9 +5,9 @@
         <p>I’m one of many Joe Wright’s and I currently dwell in Glasgow, Scotland. I run my own business providing software services throughout Scotland. I mainly use Clojure, Ruby, Java, and any automation tools I can get my hands on.
         <p>I can usually be found hacking on side projects, writing songs on guitar or enjoying a fine Islay single malt.</p>
 
-        <img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"> <a href="http://twitter.com/joe_jag">@joe_jag</a><br/>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/github.png"> <a href="https://github.com/joejag">joejag</a><br/>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/linkedin.png"> <a href="http://www.linkedin.com/in/joewright">Joe Wright</a>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"> <a href="http://twitter.com/joe_jag">@joe_jag</a>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/github.png"> <a href="https://github.com/joejag">joejag</a>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/linkedin.png"> <a href="http://www.linkedin.com/in/joewright">joewright</a>
 
 
 <h3>Articles</h3>

@@ -14,5 +14,9 @@
 <ul>
 <?php wp_list_pages('include=2&title_li='); ?>
 </ul>
+
+<h3>Popular Posts</h3>
+<?php wpp_get_mostpopular("range=weekly&limit=5&order_by=views&stats_comments=0&pages=0"); ?>
+
     </div><!--/.well -->
 </div><!--/span-->

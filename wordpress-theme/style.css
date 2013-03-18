@@ -90,6 +90,38 @@ h5,h3 small,h4 small {
 font-size:14px;
 }
 
+.pager .next {
+    float: right;
+}
+
+.pager li>a:hover, .pager li>span:hover {
+    color: #fff;
+    background-color: #080808;
+}
+
+.pager li>a, .pager li>span {
+    color: #080808;
+    background-color: #dfdfdf;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.btn {
+padding: 22px 30px;
+text-shadow: none;
+background-image: none;
+border: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
+-webkit-box-shadow: none;
+background-color: #0f82f5;
+box-shadow: none;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+background-repeat: repeat-x;
+}
+
 
 /*
  * Theme Name: Joejag Minimal
@@ -113,7 +145,7 @@ body {
 }
 
 h1 { font-size: 50px; }
-h2 { font-size: 42px; line-height: 42px; }
+h2 { font-size: 42px; line-height: 45px; }
 p  { margin-bottom: 1.2em; }
 ul { padding-bottom: 1.2em; }
 li { line-height: 1.5em; }

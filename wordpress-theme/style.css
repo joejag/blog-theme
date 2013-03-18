@@ -78,54 +78,6 @@ border-right-color:#bbb;
 padding:10px 15px;
 }
 
-p {
-margin-bottom:1.2em;
-}
-
-li {
-line-height:1.5em;
-}
-
-#sidebar {
-font-size:15px;
-}
-
-.article_heading {
-padding-left:72px;
-padding-bottom:60px;
-}
-
-.date_label {
-position:absolute;
-left:20px;
-}
-
-.date_day {
-font-size:20px;
-text-align:center;
-font-weight:700;
-}
-
-.date_month {
-text-transform:uppercase;
-text-align:center;
-font-weight:700;
-}
-
-.date_year {
-text-align:center;
-font-weight:700;
-}
-
-#comments_heading {
-text-align:center;
-padding-bottom:1.2em;
-}
-
-#respond_box input,textarea {
-width:66%;
-}
-
 h3,h1 small {
 font-size:24.5px;
 }
@@ -138,9 +90,6 @@ h5,h3 small,h4 small {
 font-size:14px;
 }
 
-ul,.mugshot,.comment_meta {
-padding-bottom:1.2em;
-}
 
 /*
  * Theme Name: Joejag Minimal
@@ -169,11 +118,13 @@ p  { margin-bottom: 1.2em; }
 ul { padding-bottom: 1.2em; }
 li { line-height: 1.5em; }
 
+#wrapper { max-width: 1080px; width: 100%; margin: 0 auto; }
+
 #sidebar { font-size: 15px; }
 .article_heading { padding-left: 72px; padding-bottom: 60px; }
 .mugshot { padding-bottom: 1.2em; }
 
-.date_label { position: absolute; left: 20px; }
+.date_label { position: absolute; margin-left: -25px; }
 .date_day { font-size: 20px; text-align: center; font-weight: bold }
 .date_month { text-transform: uppercase; text-align: center; font-weight: bold}
 .date_year { text-align: center; font-weight: bold}
@@ -181,3 +132,6 @@ li { line-height: 1.5em; }
 #comments_heading {text-align: center; padding-bottom: 1.2em  }
 .comment_meta { padding-bottom: 1.2em }
 #respond_box input, textarea { width: 66%;}
+ul,.mugshot,.comment_meta { padding-bottom:1.2em; }
+
+.comment {margin: 10px 10px; padding: 25px 25px;}

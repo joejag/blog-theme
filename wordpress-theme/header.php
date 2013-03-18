@@ -36,6 +36,7 @@ if ( $paged >= 2 || $page >= 2 )
 
     <body <?php body_class(); ?> onload="sh_highlightDocument();">
 
+<div id="wrapper">
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span11 offset1">

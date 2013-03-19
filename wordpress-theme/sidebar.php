@@ -3,7 +3,7 @@
         <h3>Who's Joe?</h3>
         <img class="mugshot" src="<?php echo get_template_directory_uri(); ?>/img/joe_head.jpg" />
         <p>Software developer, systems thinker, merciless refactorer and agent of change terrorising Glasgow</p>
-        <p>I run my own business providing software services throughout Scotland. I mainly use Clojure, Ruby, Java, and any automation tools I can get my hands on.
+        <p>I run my own business providing software services throughout Scotland. I mainly use Clojure, Ruby, Java and any automation tools I can get my hands on.
         <p>I can usually be found hacking on side projects, writing music or enjoying a fine single malt whisky.</p>
 
         <img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"> <a href="http://twitter.com/joe_jag">@joe_jag</a>

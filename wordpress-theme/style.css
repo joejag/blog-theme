@@ -104,15 +104,14 @@ background-repeat: repeat-x;
  * */
 
 body {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
 
     font-size: 1.1em;
     line-height:1.2em;
 }
-
 
 h1 { font-size: 2.7em; }
 h2 { font-size: 2.3em; }
@@ -126,10 +125,10 @@ li { line-height: 1.5em; }
 #wrapper { max-width: 1080px; width: 100%; margin: 0 auto; }
 
 #sidebar { font-size: 0.85em; }
-.article_heading { padding-left: 72px; padding-bottom: 60px; }
+.article_heading { padding-left: 1.8em; padding-bottom: 1.5em; }
 .mugshot { padding-bottom: 1.2em; }
 
-.date_label { position: absolute; margin-left: -25px; }
+.date_label { position: absolute; margin-left: -1.4em; }
 .date_day { font-size: 1.5em; text-align: center; font-weight: bold }
 .date_month { text-transform: uppercase; text-align: center; font-weight: bold}
 .date_year { text-align: center; font-weight: bold}
@@ -139,10 +138,10 @@ li { line-height: 1.5em; }
 #respond_box input, textarea { width: 66%;}
 ul,.mugshot,.comment_meta { padding-bottom:1.2em; }
 
-.comment {margin: 10px 10px; padding: 25px 25px;}
+.comment {margin: 0.5em 0.5em; padding: 1.5em 1.5em;}
 
 @media (max-width: 800px) { 
-    body { font-size: medium; padding-left: 0.5em; padding-right: 0.5em; } 
+    body { font-size: medium; padding-left: 1em; padding-right: 1em; } 
     .date_label { margin-left: -2px; width: 3em;} 
     .article_heading { padding-left: 2.8em; padding-bottom: 1.5em }
     h1 { padding-left: 3em; }
@@ -150,10 +149,8 @@ ul,.mugshot,.comment_meta { padding-bottom:1.2em; }
 }
 
 @media (max-width: 500px) { 
-    body { font-size: small; padding-left: 0.5em; padding-right: 0.5em; } 
     .article_heading { padding-left: 0; padding-bottom: 1em }
     h1 { padding-left: 1.5em; }
-    blockquote p { font-size: small; }
     .date_label { position: relative; width: 93%; margin-left: 0px; padding: 0.5em; padding-left: 1em;}
     .date_day { font-size: small; display: inline-block; }
     .date_month { display: inline-block; }
